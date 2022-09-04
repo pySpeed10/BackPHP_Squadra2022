@@ -1,0 +1,20 @@
+POST  http://127.0.0.1:8000/api/pessoa HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "JOÃO ANDRADE",
+    "sobrenome": "DOS REIS",
+    "idade": 12,
+    "login": "joao.reis.dois",
+    "senha": "senha",
+    "status": 1,
+    "enderecos": [
+        {
+            "codigoBairro": 3,
+            "nomeRua": "RUA A",
+            "numero": "123",
+            "complemento": "MINHA CASA UM",
+            "cep": "11111-678"
+        }
+    ]
+}
